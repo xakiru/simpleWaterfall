@@ -1,11 +1,10 @@
 
 
 
-simpleWaterfall: $(selector).simplewf();
+jquery simple Waterfall : $(selector).simplewf();
 ==========
 
 Lightweight and simple jquery plugin that enable a waterfall on elements within a container.
-
 
 ## Usage
 
@@ -18,7 +17,7 @@ Let's suppose this is our container that have `container` as id:
 </div>
 ```
 
-It's easy and simple to apply the simpleWaterfall :  if the is visible on the screen use `$("#element").inViewport();` : 
+It's easy and simple to apply the simpleWaterfall  : 
 ```html
 <script>
 $(function () {
@@ -89,3 +88,5 @@ Also you can set an options straight on items to fix exact column to place the i
 <script src="js/simplewf.min.js"></script>
 ```
 
+## Require
+based on jQuery.waterfall of dfcreative 
